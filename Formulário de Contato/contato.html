@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    <title>Formulário de Contato</title>
+</head>
+
+<body>
+
+    <form action="" method="post" autocomplete="off">
+
+        <fieldset>
+            
+            <legend>Formulário de Contato</legend>
+
+            <label>Nome
+                <input type="text" name="nome" placeholder="Digite seu nome completo" required>
+            </label>
+            <label>E-mail
+                <input type="email" name="email" placeholder="Digite um e-mail válido" required>
+            </label>
+            <label>Assunto
+                <input type="text" name="subject">
+            </label>
+            <label>Mensagem
+                <textarea rows="7" name="message" maxlength="1000" minlength="20" placeholder="conte-nos tudo"
+                    required></textarea>
+            </label>
+            <button type="submit" class="btn">Enviar</button>
+
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>
